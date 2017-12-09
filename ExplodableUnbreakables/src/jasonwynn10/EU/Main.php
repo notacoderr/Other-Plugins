@@ -17,7 +17,7 @@ class Main extends PluginBase implements Listener {
 	/** @var Block[] $blocks */
 	private $blocks = [];
 	public function onEnable() {
-		Main extends Bedrock {
+		class Main extends Bedrock {
 			public function getBlastResistance() : float {
 				return 36.41; // accounts for 2 steps out from explosion
 			}
