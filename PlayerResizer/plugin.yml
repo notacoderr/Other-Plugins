@@ -1,10 +1,10 @@
 name: PlayerResizer
 main: sizer\Main
-version: 0.1.0
-author: "jasonwynn10"
+version: 1.2.6
+author: [VMPE Development Team]
 api:
-- 3.0.0
-- 3.0.0-ALPHA7
+- 3.0.0-ALPHA9
+- 3.0.0-ALPHA10
 load: STARTUP
 commands:
   resize:
