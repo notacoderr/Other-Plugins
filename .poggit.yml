@@ -1,0 +1,13 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ZPlayzMCPE/Other-Plugins
+branches:
+- patch-1
+projects:
+  Cratechest:
+    path: Cratechest/
+  ExplodableUnbreakables:
+    path: ExplodableUnbreakables/
+  NoPvpFlight:
+    path: NoPvpFlight/
+  PlayerResizer:
+    path: PlayerResizer/
+...
