@@ -17,12 +17,12 @@ class Main extends PluginBase implements Listener {
 	/** @var Block[] $blocks */
 	private $blocks = [];
 	public function onEnable() {
-		BlockFactory::registerBlock(new class() extends Bedrock {
+		BlockFactory::registerBlock(Main() extends Bedrock {
 			public function getBlastResistance() : float {
 				return 36.41; // accounts for 2 steps out from explosion
 			}
 		}, true);
-		BlockFactory::registerBlock(new class() extends Obsidian {
+		BlockFactory::registerBlock(Main() extends Obsidian {
 			public function getBlastResistance() : float {
 				return 36.41; // accounts for 2 steps out from explosion
 			}
