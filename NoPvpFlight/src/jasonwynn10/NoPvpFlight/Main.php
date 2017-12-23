@@ -9,7 +9,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase implements Listener {
 	/** @var string[] $players */
-    private $players = [];
+    public $players = [];
 	public function onEnable() {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
