@@ -2,12 +2,6 @@
 branches:
 - patch-2
 projects:
-  Cratechest:
-    path: Cratechest/
-  ExplodableUnbreakables:
-    path: ExplodableUnbreakables/
-  NoPvpFlight:
-    path: NoPvpFlight/
-  PlayerResizer:
-    path: PlayerResizer/
+  CrossOnlineCount:
+    path: CrossOnlineCount/
 ...
